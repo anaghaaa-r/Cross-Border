@@ -1,0 +1,218 @@
+
+/* admin navbar */
+nav li
+{
+    list-style-type: none;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: black;
+}
+
+/* admin login page */
+.bg-login
+{
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.admin-login
+{
+    padding: 20px;
+}
+
+.logo-login
+{
+    width: 40px;
+}
+
+.login-area
+{
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px 20px;
+    text-align: center;
+}
+
+.title-login
+{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.form-control.login{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+.form-control.login:focus
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid darkgray;
+    border-radius: 0;
+}
+
+.login-form
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 0px 100px;
+}
+
+.login-form input
+{
+    flex-grow: 1;
+    width: 100%;
+}
+
+/* admin dashboard page */
+
+.admin-dashboard {
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background: linear-gradient(35deg, #faec82 75%, #c7dfe9 25%);
+}
+
+.admin-dashboard .container {
+    padding-top: 50px;
+}
+
+a.admin-card {
+    text-decoration: none;
+    margin-left: auto;
+}
+
+/* admin card */
+
+.admin-card {
+    width: 100%;
+    padding: 30px 0px;
+    font-size: 30px;
+    color: black;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.06) 4px 5px 5px 1px;
+    transition: .4s ease-in;
+}
+
+.admin-card:hover {
+    transform: translateY(-5px);
+    color: #165d8b;
+    cursor: pointer;
+    transition: .4s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.07) 6px 9px 5px 1px;
+}
+
+/* booking page */
+
+.fa-trash
+{
+    color: red;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* add-deals page */
+
+.deals
+{
+    padding:  0 0 50px 0;
+}
+
+.deal-card
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.deals-image
+{
+    border-radius: 10px;
+}
+
+/* add-international page */
+
+.international
+{
+    padding:  0 0 50px 0;
+}
+
+.international-card
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.international-image
+{
+    border-radius: 10px;
+}
+
+/* add-india page */
+
+.india
+{
+    padding:  0 0 50px 0;
+}
+
+.india-card
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.india-image
+{
+    border-radius: 10px;
+}
+
+/* package details page */
+
+.details
+{
+    padding: 40px 0;
+}
+
+.details-image
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.details-area
+{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+h3
+{
+    font-size: 37px;
+}
+
+
+
+/* responsive */
+
+/* admin login page */
+
+@media screen and (max-width: 1030px)
+{
+    
+}
