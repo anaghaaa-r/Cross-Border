@@ -27,6 +27,7 @@ use App\Http\Controllers\AuthController;
 //     return view('welcome');
 // });
 
+
 Route::get('/', [ManageBladeViewsController::class, 'indexView']);
 
 Route::get('/aboutus', function() {
